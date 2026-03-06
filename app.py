@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, World!"
+    return "API funcionando en Render"
 
 if __name__ == "__main__":
     app.run()
